@@ -10,4 +10,4 @@ More text
 
 ## Second point
 
-[TODOs](/docs/migration-todo-list.md)
+[TODOs](./migration-todo-list.md)
