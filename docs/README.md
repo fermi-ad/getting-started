@@ -1,4 +1,6 @@
-# Migrating to GitHub
+---
+title: Migrating to GitHub
+---
 
 ## First point
 
