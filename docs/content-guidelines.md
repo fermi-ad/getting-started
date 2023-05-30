@@ -2,6 +2,12 @@
 
 This document provides guidelines and considerations for creating and managing GitHub repositories. It covers important aspects such as repository configuration, audience, permissions, and content restrictions. By following these guidelines, you can ensure proper setup and adherence to security and data sensitivity requirements.
 
+## Philosophy
+
+You are encouraged to aim for a public repository, unless there are specific reasons or restrictions that require otherwise. Public repositories promote transparency, collaboration, and knowledge sharing throughout AD, the lab, and the internet. However, it is important to consider and follow the guidelines below while configuring the repository:
+
+The primary philosophy behind our repository management is to promote transparency, collaboration, and knowledge sharing within the community. While the main goal is to have public repositories whenever possible, there may be certain situations or restrictions that require the use of private or internal repositories. We strive to strike a balance between openness and the need to protect sensitive or proprietary information.
+To adhere to this philosophy, we emphasize the separation of base code from configuration files. Keeping configuration files separate allows for easier sharing, collaboration, and customization while maintaining a strong foundation of reusable code. It enables others to adapt and extend our projects to suit their specific needs, driving innovation and fostering a vibrant developer community.
 ## Repository Setup:
 
 It is encouraged to aim for a public repository, unless there are specific reasons or restrictions that require otherwise. Public repositories promote transparency, collaboration, and knowledge sharing within the community. However, it is important to consider and follow the guidelines below while configuring the repository:
