@@ -8,6 +8,27 @@ You are encouraged to aim for a public repository, unless there are specific rea
 
 The primary philosophy behind our repository management is to promote transparency, collaboration, and knowledge sharing within the community. While the main goal is to have public repositories whenever possible, there may be certain situations or restrictions that require the use of private or internal repositories. We strive to strike a balance between openness and the need to protect sensitive or proprietary information.
 To adhere to this philosophy, we emphasize the separation of base code from configuration files. Keeping configuration files separate allows for easier sharing, collaboration, and customization while maintaining a strong foundation of reusable code. It enables others to adapt and extend our projects to suit their specific needs, driving innovation and fostering a vibrant developer community.
+
+## Repository content:
+
+Here is a list of things to NOT put into a GitHub repository:
+
+* Credentials/secrets/tokens
+  * We recommend using [name a tool] for storing and retrieving this kind of information.
+* Configuration
+  * Coding best practices includes magic numbers in this category.
+  * We recommend using [name a tool] for storing and retrieving this kind of information.
+* IP addresses and hostnames
+  * If the address is meant for public consumption, then it may be included. Addresses that are only used internally should not be included in code repositories.
+  * We recommend using [name a tool] for storing and retrieving this kind of information.
+* Controlled Unclassified Information (CUI) or Personally Identifiable Information (PII)
+  * This kind of content should not be included ever.
+  * If you must handle this kind of information then Fermilab training will guide you on handling this kind of data.
+* Proprietary or licensed code
+  * Please refer to the Office of Technology Transfer on this topic.
+
+Cybersecurity contact: (?)
+
 ## Repository Setup:
 
 It is encouraged to aim for a public repository, unless there are specific reasons or restrictions that require otherwise. Public repositories promote transparency, collaboration, and knowledge sharing within the community. However, it is important to consider and follow the guidelines below while configuring the repository:
@@ -33,15 +54,3 @@ It is encouraged to aim for a public repository, unless there are specific reaso
 
 * Create a [GitHub Team](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-user-access-to-your-organizations-repositories/managing-team-access-to-an-organization-repository). To provide write access to developers on repositories to facilitate their work, it is recommended to utilize GitHub Teams. GitHub Teams offer a convenient way to manage permissions and access levels for groups of users.
 * [Adjust the repository settings accordingly to control access and visibility.](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#changing-a-repositorys-visibility)
-
-## Repository content: 
-
-Here is a list of things NOT to put into a GitHub repository:
- 
-* Credentials/secrets/tokens
-* IP addresses (I think this would depend on the repo, if a GIT repo for an internal service and not for public consumption).?????
-* Hostnames (similar to IP addresses, typically stored in configuration files rather than the main repository).
-* Controlled Unclassified Information (CUI) or Personally Identifiable Information (PII).
-* Proprietary or licensed code.????????
-
-Cybersecurity contact: (?) 
