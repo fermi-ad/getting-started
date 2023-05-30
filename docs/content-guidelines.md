@@ -31,14 +31,14 @@ Cybersecurity contact: (?)
 
 ## Repository Setup:
 
-It is encouraged to aim for a public repository, unless there are specific reasons or restrictions that require otherwise. Public repositories promote transparency, collaboration, and knowledge sharing within the community. However, it is important to consider and follow the guidelines below while configuring the repository:
+You are encouraged to aim for a public repository, unless there are specific reasons or restrictions that require otherwise. Public repositories promote transparency, collaboration, and knowledge sharing throughout AD, the lab, and the internet. However, it is important to consider and follow the guidelines below while configuring the repository:
 
-* Determine the intended audience for the repository (private, internal, specific collaborators, Fermi-only, or public).
+* Determine the intended audience for the repository.
+  * Public, Fermilab employees and collaborators, specific group at Fermi, or select people
 * Configure the folder structure and permissions and authorizations based on the repo data sensitivity.  (??)
 * Configure the repository for the correct level of authentication/security based on the repository data sensitivity level:
   * Evaluate the sensitivity of the repository data and select the appropriate level of authentication and security measures.
-  * If the software supports Controlled Unclassified Information (CUI) or requires moderate-level authentication, ensure the repository is appropriately configured. https://computing.fnal.gov/cybersecurity-atwork/cui-homepage/
- 
+  * If the software supports Controlled Unclassified Information (CUI) or requires moderate-level authentication, ensure the repository is appropriately configured. <https://computing.fnal.gov/cybersecurity-atwork/cui-homepage/>
 
    |            | Private Repository   | Public Repository   | Internal Repository (Fermi-only)   |
    |------------|----------------------|---------------------|------------------------------------|
