@@ -1,32 +1,35 @@
-# ToDo List
+# GitHub migration ToDo List
 This document provides a step-by-step guide for migrating your code repository to GitHub.
-Please follow these instructions to make the migration of code repositories to Github go smoothly:
+Please follow these instructions to make the migration of code repositories to GitHub go smoothly:
 
 - [ ] Get added to FNAL Controls organization (TBD).
-- [ ] Determine if your repository should be on-premises or in the cloud (TBD)
-- [ ] Verify GitHub credentials and configurations
+- [ ] Review our [content guidelines](./content-guidelines.md) to determine the appropriate settings and structure for your repository. The recommendations will help you make informed decisions regarding repository visibility, collaboration settings, data sensitivity, security features, licensing, compliance, and external contributions.
+- [ ] Verify GitHub credentials and configurations.
    - Ensure that you have valid GitHub credentials (username and password).
-   - In your development environment,  set your user name and email address:
+   - Set your Git identity in your development environment :
   ```
   git config --global user.name "Your Name"
   git config --global user.email "your-email@fnal.gov"
   ```
+- [ ] Optional. Working from Controls network? Set up the proxy configuration in your development environment to securely connect to and interact with GitHub.
 - [ ] Migrate the code from an existing git repository (Redmine or ghe-pip2)
    1. Identify the source repository that needs to be migrated.
    2. Create a new repository within the FNAL Controls organization on GitHub. (as empty repo)
    3. Clone the source repository locally to begin the migration process.
    4. Add the new repository as a remote destination for the code migration.
     ```
-    $ git remote rm origin
-    $ git remote add origin https://github.com/fermi-controls/<name of the repo>.git
+    $ git remote set-url origin https://github.com/fermi-controls/<name of the repo>.git
     $ git remote -v
     origin	https://github.com/fermi-controls/<name of the repo>.git (fetch)
     origin	https://github.com/fermi-controls/<name of the repo>.git(push)
     ```
-    5. Push the code from the source repository to the new repository.
-    TBD add steps to push all branches
+    5. Push the code from the source repository to the new repository. The options `--all` and `--tags` puhses all your branches and tags.
     ```
-    $ git push
+    $ git push origin --all
+    $ git push --tags
     ```
-- [ ] Fix local working directories to point to the new repository. TBD.. same as previous step
-- [ ] Optional. Working from Controls network - proxy setup . TBD 
+- [ ] Communicate with collaborators to update their local working directories:
+    ```
+    $ git remote set-url origin https://github.com/fermi-controls/<name of the repo>.git
+    ```
+- [ ] Retire your old repository: Once you have successfully migrated your repositories to GitHub, delete or archive the old repositories and communicate the retirement to your team and stakeholders.
