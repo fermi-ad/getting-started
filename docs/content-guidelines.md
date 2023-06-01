@@ -15,13 +15,13 @@ To adhere to this philosophy, we emphasize the separation of base code from conf
 Here is a list of things to NOT put into a GitHub repository:
 
 * Credentials/secrets/tokens
-  * We recommend using [name a tool] for storing and retrieving this kind of information.
+  * We recommend using a Secret Managment tool for storing and retrieving this kind of information.
 * Configuration
   * Coding best practices includes magic numbers in this category.
-  * We recommend using [name a tool] for storing and retrieving this kind of information.
+  * We recommend using a configuration managment tool for storing and retrieving this kind of information.
 * IP addresses and hostnames
   * If the address is meant for public consumption, then it may be included. Addresses that are only used internally should not be included in code repositories.
-  * We recommend using [name a tool] for storing and retrieving this kind of information.
+  * We recommend using Configuration Managment tool for storing and retrieving this kind of information.
 * Controlled Unclassified Information (CUI) or Personally Identifiable Information (PII)
   * This kind of content should not be included ever.
   * If you must handle this kind of information then Fermilab training will guide you on handling this kind of data.
@@ -36,7 +36,7 @@ You are encouraged to aim for a public repository, unless there are specific rea
 
 * Determine the intended audience for the repository.
   * Public, Fermilab employees and collaborators, specific group at Fermi, or select people
-* Configure the folder structure and permissions and authorizations based on the repo data sensitivity.  (??)
+* Configure the folder structure and permissions and authorizations based on the repo data sensitivity.
 * Configure the repository for the correct level of authentication/security based on the repository data sensitivity level:
   * Evaluate the sensitivity of the repository data and select the appropriate level of authentication and security measures.
   * If the software supports Controlled Unclassified Information (CUI) or requires moderate-level authentication, ensure the repository is appropriately configured. <https://computing.fnal.gov/cybersecurity-atwork/cui-homepage/>
