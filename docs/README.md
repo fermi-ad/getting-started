@@ -6,13 +6,14 @@ _Note:_ Throughout this document when we use "GitHub" we are referring to GitHub
 
 ## Content Guidelines
 
-We highly recommend reviewing the detailed content guidelines [here](./content-guidelines.md) for comprehensive information on essential instructions and best practices for maintaining a secure development environment and making informed decisions about what should and shouldn't be committed to our repositories.
+We highly recommend reviewing the detailed [content guidelines](./content-guidelines.md) for comprehensive information on essential instructions and best practices for maintaining a secure development environment and making informed decisions about what should and shouldn't be committed to our repositories.
 
-## Migration ToDO List
+## Migration ToDo List
 
-If you are currently using other tools like Redmine or GitHub On-prem (ghe-pip2) and planning to migrate your repositories to GitHub, this migration [TODOs](./migration-todo-list.md) list will guide you through the necessary steps to ensure a smooth transition.
+If you are currently using other tools like Redmine or GitHub On-prem (ghe-pip2) and planning to migrate your repositories to GitHub, this [migration todo list](./migration-todo-list.md) will guide you through the necessary steps to ensure a smooth transition.
 
 ## Support
+
 New to using Git? Don't worry, If you have any questions or need assistance with Git-related topics, we have dedicated Slack channels to support you.
 
 `#help-git`: This Slack channel is specifically designed to provide help and support for Git-related queries. Whether you're facing issues with Git commands, branching strategies, merging, or any other Git-related topic.
