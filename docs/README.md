@@ -2,6 +2,8 @@
 
 This guide is designed to support you in effectively utilizing GitHub within AD Controls Organization.
 
+_Note:_ Throughout this document when we use "GitHub" we are referring to GitHub Cloud at github.com.
+
 ## Content Guidelines
 
 We highly recommend reviewing the detailed content guidelines [here](./content-guidelines.md) for comprehensive information on essential instructions and best practices for maintaining a secure development environment and making informed decisions about what should and shouldn't be committed to our repositories.
