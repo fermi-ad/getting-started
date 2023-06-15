@@ -1,5 +1,8 @@
 # GitHub Migration ToDo List
 
+  **Note:**
+  Currently, there are no plans to retire Redmine or ghe-pip2. However, we highly recommend initiating the migration of repositories from these platforms to GitHub in the near future.
+
 This document provides a step-by-step guide for migrating your code repository to GitHub.
 Please follow these instructions to make the migration of code repositories to GitHub go smoothly:
 
