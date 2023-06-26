@@ -28,7 +28,7 @@ Here is a list of things to NOT put into a GitHub repository:
 * Proprietary or licensed code
   * Please refer to the Office of Technology Transfer on this topic.
 
-If you have questions or concerns regarding whether certain parts of your code should be included in the repository, please reach out to our cybersecurity expert: [Tim Zingelman](zingelman@fnal.gov)
+If you have questions or concerns regarding whether certain parts of your code should be included in the repository, please reach out to our cybersecurity expert:Tim Zingelman
 
 ## Repository Setup
 
