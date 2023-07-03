@@ -1,8 +1,9 @@
-# AD GitHub Usage Guide
-
-This guide is designed to support you in effectively utilizing GitHub within AD Controls Organization.
-
+This guide is designed to support you in effectively utilizing GitHub within AD Organization
 _Note:_ Throughout this document when we use "GitHub" we are referring to GitHub Cloud at github.com.
+
+## Initial Setup
+
+If you're new to AD GitHub organization, the [initial setup guide](./content-guidelines.md) will provide you with the necessary instructions and steps to configure your account and environment effectively.
 
 ## Content Guidelines
 
