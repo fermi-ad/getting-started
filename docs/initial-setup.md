@@ -3,8 +3,9 @@
 This document provides a step-by-step guide to start using GitHub at the AD organization.
 
 - Get added to Fermi-Controls organization (TBD).
+- Configure your  GitHub account with [two-factor authetication (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
 - Verify GitHub credentials and configurations.
-  - Ensure that you have valid GitHub credentials (username and password).
+  - Ensure that you have valid GitHub credentials (username and 2FA).
   - Set your Git identity in your development environment :
 
     ```sh
