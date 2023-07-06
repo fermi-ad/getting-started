@@ -1,8 +1,8 @@
 # Initial Setup
 
-This document provides a step-by-step guide to start using GitHub in the Fermi-AD organization.
+This document provides a step-by-step guide to start using GitHub in the Fermi-Controls organization.
 
-- Get added to Fermi-AD organization (TBD).
+- Get added to Fermi-Controls organization (TBD).
 - Configure your  GitHub account with [two-factor authetication (2FA)](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
 - Verify GitHub credentials and configurations.
   - Ensure that you have valid GitHub credentials (username and 2FA).
