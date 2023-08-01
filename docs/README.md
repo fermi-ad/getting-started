@@ -10,6 +10,12 @@ If you're new to Fermi-AD GitHub organization, the [initial setup guide](./initi
 
 We highly recommend reviewing the detailed [content guidelines](./content-guidelines.md) for comprehensive information on essential instructions and best practices for maintaining a secure development environment and making informed decisions about what should and shouldn't be committed to our repositories.
 
+## Best practices
+
+ Following these guidelines will help us maintain consistency and enhance collaboration:
+
+- [GitHub Repository Naming Guide](./repo-naming-guide.md)
+
 ## Migration ToDo List
 
 If you are currently using other tools like Redmine or GitHub On-prem (ghe-pip2) and planning to migrate your repositories to GitHub, this [migration todo list](./migration-todo-list.md) will guide you through the necessary steps to ensure a smooth transition.
