@@ -21,7 +21,7 @@ This document provides a step-by-step guide to start using GitHub in the Fermi-A
     ```
 
 ### 4. Network configuration - optional:
--  _Applies when working from Controls network_ - Set up the proxy configuration in your development environment to securely connect to and interact with GitHub.
+-  _Applies when working from Controls network_ - Set up the proxy configuration in your development environment to securely connect to and interact with GitHub. For the full instructions you can contact mariana@fnal.gov
 
 ### 5. Repository Setup
 - Review our [content guidelines](./content-guidelines.md) to determine the appropriate settings and structure for your repository. The recommendations will help you make informed decisions regarding repository visibility, collaboration settings, data sensitivity, security features, licensing, compliance, and external contributions.
