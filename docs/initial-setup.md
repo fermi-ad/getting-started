@@ -15,13 +15,19 @@ This document provides a step-by-step guide to start using GitHub in the Fermi-A
   1. Check credentials: Verify that  that you have valid GitHub credentials including your username, SSO and 2FA.
   2. Set your Git identity in your development environment :
 
-    ```sh
-    git config --global user.name "Your Name"
-    git config --global user.email "your-email@fnal.gov"
-    ```
+```
+git config --global user.name "Your Name"
+git config --global user.email "your-email@fnal.gov"
+```
 
 ### 4. Network configuration - optional:
--  _Applies when working from Controls network_ - Set up the proxy configuration in your development environment to securely connect to and interact with GitHub. For the full instructions you can contact mariana@fnal.gov
+-  _Applies when working from Controls network_ - Set up the proxy configuration in your development environment to securely connect to and interact with GitHub.
+
+```
+ssh -fN -D 1080 $USER@[bastion host]
+proxychains git [clone|pull|push]
+```
+To request access to the bastion systems, please consult your line manager and have them complete a access request form on your behalf.
 
 ### 5. Repository Setup
 - Review our [content guidelines](./content-guidelines.md) to determine the appropriate settings and structure for your repository. The recommendations will help you make informed decisions regarding repository visibility, collaboration settings, data sensitivity, security features, licensing, compliance, and external contributions.
