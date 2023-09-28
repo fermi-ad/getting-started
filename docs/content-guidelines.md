@@ -15,18 +15,16 @@ To adhere to this philosophy, we emphasize the separation of base code from conf
 Here is a list of things to NOT put into a GitHub repository:
 
 * Credentials/secrets/tokens
-  * We recommend using a secret management tool to store and retrieve this information.
 * Configuration
-  * Coding best practice includes magic numbers in this category.
-  * We recommend using a configuration management tool to store and retrieve this information.
 * IP addresses and hostnames
   * An address may be included if the address is for public consumption. Addresses that are only used internally should not be included in code repositories.
-  * We recommend using a configuration management tool to store and retrieve this information.
 * Controlled Unclassified Information (CUI) or Personally Identifiable Information (PII)
   * This kind of content should not ever be included.
   * If you must handle this kind of information, then Fermilab training will guide you in handling this kind of data.
 * Proprietary or licensed code
   * Please refer to the Office of Technology Transfer on this topic.
+
+Refer to [Secure Sensitive Data](./secure-sensitive-data.md) for recommendations on how to handle this content.
 
 If you have questions or concerns regarding whether certain parts of your code should be included in the repository, please reach out to our cybersecurity expert:Tim Zingelman
 
