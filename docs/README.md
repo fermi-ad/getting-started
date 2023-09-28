@@ -15,6 +15,7 @@ We highly recommend reviewing the detailed [content guidelines](./content-guidel
  Following these guidelines will help us maintain consistency and enhance collaboration:
 
 - [GitHub Repository Naming Guide](./repo-naming-guide.md)
+- [Secure Sensitive Data](./secure-sensitive-data.md)
 
 ## Migration ToDo List
 
