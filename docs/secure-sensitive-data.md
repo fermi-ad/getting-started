@@ -18,3 +18,7 @@ Store sensitive configuration values, like IPs and hostnames,  as environment va
 
 - Secrets Management Systems:
 Utilize secrets management systems like HashiCorp Vault  to securely store and manage sensitive configuration data. These systems provide robust security features, access controls, and auditing capabilities. Your application can then retrieve secrets from these systems at runtime.
+
+## Discovered Sensitive Data in your Repositories?
+
+No worries; if you've already identified sensitive data in your repositories, you can take action by following the steps provided in [this documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)  to remove it securely.
