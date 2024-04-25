@@ -21,8 +21,7 @@ Here is a list of things to NOT put into a GitHub repository:
 * Controlled Unclassified Information (CUI) or Personally Identifiable Information (PII)
   * This kind of content should not ever be included.
   * If you must handle this kind of information, then Fermilab training will guide you in handling this kind of data.
-* Proprietary or licensed code
-  * Please refer to the Office of Technology Transfer on this topic.
+
 
 Refer to [Secure Sensitive Data](./secure-sensitive-data.md) for recommendations on how to handle this content.
 
