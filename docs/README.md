@@ -16,6 +16,7 @@ We highly recommend reviewing the detailed [content guidelines](./content-guidel
 
 - [GitHub Repository Naming Guide](./repo-naming-guide.md)
 - [Secure Sensitive Data](./secure-sensitive-data.md)
+- [Code Scanning](./code-scanning.md)
 
 ## Migration ToDo List
 
