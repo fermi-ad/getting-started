@@ -19,6 +19,12 @@ There are a few things to consider when naming your repo. We want repos to be ea
 - Minimize External Dependencies:
   - Avoid including dependency names to prevent technical debt from future changes.
   - Include the dependency only if the repo becomes unusable without it (e.g., acsys-python).
+  - Organizational Names: Do Not Include
+    - Avoid embedding current organizational structure or team names in repository names (e.g., FNAL, Fermilab, AD/BD, Operations).
+      - The GitHub Enterprise is named Fermi National Accelerator Labs.
+      - The GitHub Organization is named fermi-ad.
+      - [Teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) can be used to group repos under department/group/project names.
+    - Focus on describing the repository's function and purpose instead of its current organizational home
 - Acronyms: Acceptable for common terms, but spell out if the name is solely the acronym.
 - Searchability: Choose keywords relevant for someone searching for your repository.
 - Name Collisions: Ensure your title is specific enough for future users to find it in a search.
