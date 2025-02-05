@@ -21,11 +21,11 @@ git config --global user.email "your-email@fnal.gov"
 ```
 
 ### 4. Network configuration - optional:
--  _Applies when working from Controls network_ - Set up the proxy configuration in your development environment to securely connect to and interact with GitHub.
+-  _Applies when working from Controls network_ - Set up your `~/.ssh/config` to securely connect through a bastion _using SSH_ to interact with GitHub.
 
-```
-ssh -fN -D 1080 $USER@[bastion host]
-proxychains git [clone|pull|push]
+```~/.ssh/config
+Host github.com
+    ProxyJump <bastion-host>
 ```
 To request access to the bastion systems, please consult your line manager and have them complete a access request form on your behalf.
 
