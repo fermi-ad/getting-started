@@ -4,7 +4,7 @@ This document provides guidelines and considerations for creating and managing G
 
 ## Philosophy
 
-_Note:_ By default, all repositories within the Fermi Controls Organization are internal. If you intend to make a repository public, follow the transfer disclosure process with the Office of Technology Transfer.
+_Note:_ By default, all repositories within the Fermi Controls Organization are internal. If you intend to make a repository public, follow the transfer disclosure process with the [Office of Technology Transfer](https://techpubs.fnal.gov/submitting-code/).
 
 The primary philosophy behind our repository management is to promote transparency, collaboration, and knowledge sharing throughout AD, the lab, and the internet. While the main goal is to have public repositories whenever possible, there may be certain situations or restrictions that require the use of private or internal repositories. We strive to balance openness and the need to protect sensitive or proprietary information.
 
